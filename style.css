@@ -1,0 +1,60 @@
+body{
+    background-color: darkgrey;
+    border: 20px;
+    text-align: center;
+}
+
+/**body de grid**/
+body{
+    display: grid;
+    grid-template-areas:
+    "pr pr pr"
+    "se te te"
+    "ul ul ul";
+    grid-gap: 10px;
+}
+.pr{
+    grid-area: pr;
+}
+.se{
+    grid-area: se;
+}
+.tr{
+    grid-area: tr;
+}
+.ul{
+    grid-area: ul;
+}
+
+.pr, .se, .tr, .ul{
+    background-color: rgb(235, 26, 26);
+}
+
+img{
+    height: 200px;
+    width: 30%;
+    text-align: center;
+}
+.ch{
+    height: 150px;
+    width: 250px;
+}
+
+/**estrutura quanticas**/
+
+header{
+    text-align: center;
+    background-attachment:fixed;
+}
+
+main{
+    text-align: justify;
+    padding: 50px;
+    background-color: dimgray;
+    border-radius: 75px;
+    background-attachment: fixed;
+}
+aside{
+    background-attachment: fixed;
+    text-align: center;
+}
