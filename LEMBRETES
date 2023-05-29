@@ -97,7 +97,7 @@ body{
 }
 
 .pr, .se, .tr, .ul{
-    background-color: darkred;
+    background-color: 
 }
 
 img{
@@ -111,5 +111,6 @@ img{
 }
 header{
     text-align: center;
-    
 }
+
+https://maxwelldelara.github.io/ep4/ OLHA O SITE PRA COPIAR
