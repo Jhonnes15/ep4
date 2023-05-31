@@ -114,3 +114,12 @@ header{
 }
 
 https://maxwelldelara.github.io/ep4/ OLHA O SITE PRA COPIAR
+
+figure {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 40px;
+    margin-inline-end: 40px;
+}
+
