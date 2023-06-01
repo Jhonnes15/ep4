@@ -1,8 +1,10 @@
 body{
-    background-color: darkgrey;
     border: 20px;
     text-align: center;
+    background-image: url("imagens/aab7e054f8d24068c5eea289239beed3.jpg")
+
 }
+
 
 /**body de grid**/
 body{
@@ -27,7 +29,7 @@ body{
 }
 
 .pr, .se, .tr, .ul{
-    background-color: rgb(182, 51, 51);
+    background-color: rgba(73, 7, 7, 0.938);
 }
 img{
     height: 200px;
@@ -35,6 +37,7 @@ img{
     display:block;
 }
 .ch{
+    border-radius: 50%;
     height: 150px;
     width: 250px;
 }
@@ -49,20 +52,56 @@ header{
 main{
     text-align: justify;
     padding: 50px;
-    background-color: dimgray;
+    background-color: rgba(105, 105, 105, 0.822);
     border-radius: 75px;
     background-attachment: fixed;
 }
 aside{
+    border-radius: 75px;
     background-attachment: fixed;
     text-align: center;
 }
 
-figure {
-    display: block;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 40px;
-    margin-inline-end: 40px;
+
+/**decoracao letras**/
+h1{
+    color: darkred;
+    font-weight: 900;
+    text-align: center;
 }
 
+p{
+    font-style: oblique;
+    text-align: center;
+    font-size: 25px;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #22222296;
+    color: rgb(0, 0, 0);
+}
+
+/**decoracao imagens**/
+
+.oi{
+    text-align: center;
+    border: 13cap;
+    border-color: black;
+}
+
+.banda{
+    text-align: center;
+    border: 13cap;
+    border-color: black;
+
+}
+
+.ch{
+    text-align: center;
+    border: 13cap;
+    border-color: black;
+
+}
+
+.po{
+    border-radius: 50%;
+    text-align: center;
+}
