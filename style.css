@@ -32,15 +32,16 @@ body{
     background-color: rgba(73, 7, 7, 0.938);
 }
 img{
-    height: 200px;
-    width: 30%;
-    display:block;
+    height: 500px;
+    width: 40%;
 }
-.ch{
-    border-radius: 50%;
-    height: 150px;
-    width: 250px;
+
+main h1, figure{
+    text-align: center;
+
 }
+ 
+
 
 /**estrutura quanticas**/
 
@@ -56,6 +57,7 @@ main{
     border-radius: 75px;
     background-attachment: fixed;
 }
+
 aside{
     border-radius: 75px;
     background-attachment: fixed;
@@ -65,7 +67,7 @@ aside{
 
 /**decoracao letras**/
 h1{
-    color: darkred;
+    color: rgb(255, 4, 4);
     font-weight: 900;
     text-align: center;
 }
@@ -77,6 +79,15 @@ p{
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: #22222296;
     color: rgb(0, 0, 0);
+}
+ 
+/**ESSA TAG ESTA COM O ID**/
+#mundo{
+    font-size: 80px;
+    color: #ff0000;
+    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color: #ffffff1a;
+
 }
 
 /**decoracao imagens**/
@@ -98,6 +109,9 @@ p{
     text-align: center;
     border: 13cap;
     border-color: black;
+    border-radius: 50%;
+    height: 150px;
+    width: 250px;
 
 }
 
@@ -105,3 +119,11 @@ p{
     border-radius: 50%;
     text-align: center;
 }
+
+a:link {
+    color: rgb(255, 0, 0);
+   }
+   
+   a:hover {
+    color: rgb(255, 255, 255);
+   }
